@@ -118,6 +118,8 @@ public class OracleTechAssignment {
 			}
 			inputData.add(read);
 		}
+		
+		scanner.close();
 
 		return inputData;
 	}
